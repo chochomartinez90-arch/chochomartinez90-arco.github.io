@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Playwrite AR Guides;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 20px;
+    border: 5px dotted crimson;
+    padding: 20px;
+}
+
+#galeriaImagenes{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(146, 230, 223);
+    padding: 10px;
+}
+
+#galeriaImagenes div {
+    background-color: rgba(81, 209, 220, 0.637);
+    border-radius: 15px;
+
+}
+
+#galeriaImagenes p{
+
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(68, 28, 231);
+}
+
+
+#galeriaImagenes img{
+
+    border-radius: 50%;
+    aspect-ratio: 10/50;
+}
